@@ -1,0 +1,64 @@
+CREATE A REPOSITORY AND PUSH ALL JAVA PROGRAM FILES IN IT:-
+
+Microsoft Windows [Version 10.0.19042.631]
+(c) 2020 Microsoft Corporation. All rights reserved.
+
+C:\Users\amanpreetsingh>cd desktop
+
+C:\Users\amanpreetsingh\Desktop>mkdir gitassignment
+
+C:\Users\amanpreetsingh\Desktop>cd gitassignment
+
+C:\Users\amanpreetsingh\Desktop\gitassignment>git clone https://github.com/API1062/javaprograms.git
+Cloning into 'javaprograms'...
+warning: You appear to have cloned an empty repository.
+
+C:\Users\amanpreetsingh\Desktop\gitassignment>cd javaprograms
+
+C:\Users\amanpreetsingh\Desktop\gitassignment\javaprograms>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Eighth.java
+        Eleventh.java
+        Fifth.java
+        First.java
+        Fourth.java
+        Ninth.java
+        Second.java
+        Seventh.java
+        Sixth.java
+        Tenth.java
+        Third.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\amanpreetsingh\Desktop\gitassignment\javaprograms>git add .
+
+C:\Users\amanpreetsingh\Desktop\gitassignment\javaprograms>git commit -m "All Java Programs"
+[master (root-commit) 1a6cebe] All Java Programs
+ 11 files changed, 498 insertions(+)
+ create mode 100644 Eighth.java
+ create mode 100644 Eleventh.java
+ create mode 100644 Fifth.java
+ create mode 100644 First.java
+ create mode 100644 Fourth.java
+ create mode 100644 Ninth.java
+ create mode 100644 Second.java
+ create mode 100644 Seventh.java
+ create mode 100644 Sixth.java
+ create mode 100644 Tenth.java
+ create mode 100644 Third.java
+
+C:\Users\amanpreetsingh\Desktop\gitassignment\javaprograms>git push origin master
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (13/13), 4.18 KiB | 267.00 KiB/s, done.
+Total 13 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/API1062/javaprograms.git
+ * [new branch]      master -> master
